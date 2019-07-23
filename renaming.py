@@ -1,6 +1,10 @@
+# another Renaming Alternatives
+
 import os
 
 os.chdir('YOUR PATH')
+
+# Make sure try to comment all the code first, then try to match your use cases
 
 for f in os.listdir():
 	file_name, file_ext = os.path.splitext(f)
@@ -13,8 +17,3 @@ for f in os.listdir():
 	new_name = '{} - {}'.format(file_num, file_title)
 
 	os.rename(f, new_name)
-
-
-
-
-
